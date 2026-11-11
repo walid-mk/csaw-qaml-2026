@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "version": "qaml-schedule-20261111-v2",
+  "materials_release": "2026-11-11",
+  "solving_opens_at": "2026-11-11T00:00:00+04:00",
+  "submission_cutoffs": {
+    "mena": "2026-11-13T18:00:00+04:00",
+    "us-canada": "2026-11-13T18:00:00-05:00"
+  },
+  "us_canada_participation": "online",
+  "hints_available_from": "2026-11-13"
+}

@@ -8,8 +8,8 @@ You will use the provided Road Signs images and eight-qubit, noiseless models.
 
 **Materials and submissions open: 11 November 2026.** Challenge day: Friday, **13 November**,
 in GST for MENA and ET for US–Canada. See the [event schedule](https://github.com/walid-mk/csaw-quantum-challenges-2026/blob/main/docs/schedule.md)
-for your regional times. **Submission cutoff: Saturday, 14 November, 08:00 GST
-(Friday, 13 November, 23:00 ET).** You can start the local notebook immediately;
+for your regional times. **Submission cutoff: Friday, 13 November, 6:00 PM GST for MENA and
+6:00 PM ET for US–Canada (online).** You can start the local notebook immediately;
 black-box access begins when your group receives its service URL and token.
 
 ## Start here
@@ -21,7 +21,8 @@ black-box access begins when your group receives its service URL and token.
 4. Submit a new issue in **your group's repository**, with the exact commit SHA.
 
 Prefer a text walkthrough? Read the [Student Guide](STUDENT_GUIDE.md).
-Optional [small hints](docs/hints.md) address common implementation difficulties.
+Start solving from the **11 November release**; do not wait for 13 November.
+Optional hints will be provided on challenge day.
 
 ## Your scenarios
 

@@ -1,8 +1,8 @@
 # Submission workflow
 
 One submission identifies one family and scenario. Submit additional variants as
-separate directories and separate private issues. Submissions open on **11 November 2026**. The global cutoff is
-**Saturday, 14 November, 08:00 GST**, equivalent to **Friday, 13 November, 23:00 ET**.
+separate directories and separate private issues. Submissions open on **11 November 2026**. The regional cutoffs are
+**Friday, 13 November, 6:00 PM GST (MENA)** and **6:00 PM ET (US–Canada, online)**.
 Submit a new issue for each version before that time. Evaluation is queued;
 opening an issue does not produce an immediate score.
 

@@ -28,8 +28,3 @@ Organizers may publish a revised policy, including disabling a limit. A revision
 applies consistently to affected teams and retains usage; results identify their
 policy version. Follow the announced effective policy and do not mix comparisons
 across different limits. Students cannot change the server policy.
-
-Hint 1, attacks: gradients must traverse the actual image preprocessing and encoding.
-Hint 2, attacks: retain successful intermediate candidates rather than only the last iterate.
-Hint 1, defenses: measure clean utility as well as robustness.
-Hint 2, defenses: evaluation attacks can be stronger than the training inner loop.

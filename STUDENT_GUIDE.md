@@ -7,10 +7,11 @@ You can run the local examples as soon as you have your group repository.
 Challenge day is **Friday, 13 November 2026**, full day in your region: GST for
 MENA and ET for US–Canada. Check the
 [event schedule](https://github.com/walid-mk/csaw-quantum-challenges-2026/blob/main/docs/schedule.md)
-for regional times. Submissions open on **11 November** and close globally at
-**14 November, 08:00 GST**, equivalent to **13 November, 23:00 ET**.
+for regional times. Submissions open on **11 November** and close on
+**Friday, 13 November: 6:00 PM GST for MENA; 6:00 PM ET for US–Canada (online)**.
 
-If you get stuck on implementation details, consult the optional [small hints](docs/hints.md).
+Start solving on **11 November** when the materials are released. Optional
+challenge-day hints will be provided on 13 November.
 
 ## 1. Get your team's private repository
 

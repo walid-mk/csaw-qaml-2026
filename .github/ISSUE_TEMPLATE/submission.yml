@@ -4,7 +4,7 @@ title: "[Submission] TEAM / FAMILY / SCENARIO"
 body:
   - type: markdown
     attributes:
-      value: "Submit one immutable version. Do not include credentials. Deadline: 14 November 2026, 08:00 GST (13 November, 23:00 ET). Submit in your own group repository."
+      value: "Submit one immutable version. Do not include credentials. Deadline: 13 November 2026: 18:00 GST for MENA; 18:00 ET for US–Canada. Submit in your own group repository."
   - type: input
     id: team
     attributes:
