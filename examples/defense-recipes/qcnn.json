@@ -1,0 +1,8 @@
+{
+  "family": "qcnn",
+  "method": "adversarial_training",
+  "radius_numerator": 4,
+  "adversarial_fraction": 0.25,
+  "attack_steps": 1,
+  "learning_rate": 0.005
+}

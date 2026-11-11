@@ -1,0 +1,43 @@
+name: Submit QAML solution
+description: Use only in your private team repository before the QAML submission cutoff.
+title: "[Submission] TEAM / FAMILY / SCENARIO"
+body:
+  - type: markdown
+    attributes:
+      value: "Submit one immutable version. Do not include credentials. Deadline: 14 November 2026, 08:00 GST (13 November, 23:00 ET). Submit in your own group repository."
+  - type: input
+    id: team
+    attributes:
+      label: Team ID
+    validations:
+      required: true
+  - type: dropdown
+    id: region
+    attributes:
+      label: Region
+      options:
+        - MENA (GST)
+        - US–Canada (ET)
+    validations:
+      required: true
+  - type: input
+    id: commit
+    attributes:
+      label: Full commit SHA
+      description: The pushed 40-character commit SHA, not a branch or tag.
+    validations:
+      required: true
+  - type: input
+    id: metadata
+    attributes:
+      label: Submission metadata path
+      placeholder: submissions/submission-001/submission.json
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: This is my team's private repository and the write-up discloses assistance and sources.
+          required: true

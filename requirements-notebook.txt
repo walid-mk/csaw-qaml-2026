@@ -1,0 +1,5 @@
+# Notebook interface only; install with -c kit/requirements-cpu.lock.
+jupyterlab==4.5.0
+ipykernel==7.1.0
+nbclient==0.10.2
+nbformat==5.10.4

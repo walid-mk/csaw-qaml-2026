@@ -1,0 +1,8 @@
+{
+  "schema": 2,
+  "family": "qnn",
+  "method": "custom_protocol",
+  "source": "protocol.py",
+  "config": {"strength": 0.1},
+  "backward": "autograd"
+}

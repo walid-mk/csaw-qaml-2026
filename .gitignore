@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+*token*
+*credential*
+.DS_Store
+
+.ipynb_checkpoints/
+practice-output/
+access.json

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "benchmark_visibility": "public_exposed",
+  "epsilon_numerator": 8,
+  "epsilon_denominator": 255,
+  "served_queries_per_image": 273,
+  "qnn_defense": {
+    "formula": "100*clip((R-R0)/(1-R0))*clip(C/C0)",
+    "maximum_attempts": 3,
+    "cause_priority": [
+      "submission_invalid_record",
+      "submission_missing_record",
+      "evaluator_timeout",
+      "evaluator_failure",
+      "evaluator_invalid_record",
+      "evaluator_missing_record",
+      "baseline_invalid_record",
+      "baseline_missing_record",
+      "undefined_robust_normalization",
+      "undefined_clean_normalization",
+      "undefined_or_nonfinite_calculation",
+      "no_measured_robust_improvement",
+      "zero_measured_clean_accuracy"
+    ],
+    "clean_floor_eligibility": false,
+    "tiers": [],
+    "baseline": {
+      "R0": "0.5958333333333333",
+      "C0": "0.9003793261336365"
+    }
+  },
+  "qcnn_defense": {
+    "full_credit_anchor": 0.12332663690476187,
+    "clean_floor": 0.7915030824420426,
+    "allowed_clean_loss": 0.06671775562793336,
+    "tier_fractions": [
+      0.3333333333333333,
+      0.6666666666666666,
+      1.0
+    ]
+  },
+  "attack_anchors": {
+    "qnn/blackbox/targeted": {
+      "full_credit": 0.018173701298701297,
+      "weight": 1.25
+    },
+    "qnn/blackbox/untargeted": {
+      "full_credit": 0.03904365079365079,
+      "weight": 1.0
+    },
+    "qnn/whitebox/targeted": {
+      "full_credit": 0.05831168831168831,
+      "weight": 1.25
+    },
+    "qnn/whitebox/untargeted": {
+      "full_credit": 0.10267902236652236,
+      "weight": 1.0
+    },
+    "qcnn/blackbox/targeted": {
+      "full_credit": 0.03428434065934066,
+      "weight": 1.25
+    },
+    "qcnn/blackbox/untargeted": {
+      "full_credit": 0.08642063492063491,
+      "weight": 1.0
+    },
+    "qcnn/whitebox/targeted": {
+      "full_credit": 0.036360479797979794,
+      "weight": 1.25
+    },
+    "qcnn/whitebox/untargeted": {
+      "full_credit": 0.12027651515151516,
+      "weight": 1.0
+    }
+  },
+  "tie_rule": "retain earliest equal score; only highest score per team/variant/benchmark"
+}

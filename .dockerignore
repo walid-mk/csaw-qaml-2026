@@ -1,0 +1,10 @@
+**
+!Dockerfile
+!kit/
+!kit/**
+!client/
+!client/**
+!examples/
+!examples/**
+**/__pycache__/
+**/*.pyc

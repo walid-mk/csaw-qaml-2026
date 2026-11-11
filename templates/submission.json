@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "challenge": "qaml",
+  "team_id": "REPLACE_TEAM_ID",
+  "region": "mena",
+  "submission_id": "submission-001",
+  "family": "qnn",
+  "scenario": "defense",
+  "access": "whitebox",
+  "objective": null,
+  "recipe": "submissions/submission-001/defense/recipe.json",
+  "attack_files": [],
+  "writeup": "submissions/submission-001/writeup.md",
+  "ai_assistance_disclosed": true
+}

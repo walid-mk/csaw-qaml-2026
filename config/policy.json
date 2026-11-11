@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "version": "qaml-limits-v1",
+  "pixel_cap": {
+    "enabled": true,
+    "numerator": 8,
+    "denominator": 255
+  },
+  "queries_per_image": 273
+}
