@@ -1,6 +1,6 @@
 # Black-box access: one token for your group
 
-**Current service URL:** `https://constitutes-sail-accessibility-technique.trycloudflare.com/qaml`
+**Current service URL:** `https://conservative-podcast-bones-trailers.trycloudflare.com/qaml`
 
 Use this as `QAML_PREDICT_URL`. Prediction requests require an enabled group token.
 If this temporary address changes, the replacement will be published here.
