@@ -22,6 +22,7 @@ class PredictionClientTests(unittest.TestCase):
         request = opener.open.call_args.args[0]
         self.assertEqual(json.loads(request.data), {"ids": ["image"], "images": [[]]})
         self.assertEqual(request.get_header("Authorization"), "Bearer test-token")
+        self.assertEqual(request.get_header("User-agent"), "CSAW-QAML-Student/1.0")
 
     def test_failures_do_not_retry_or_echo_secret(self):
         for error in (TimeoutError(), URLError("test-token"),

@@ -37,6 +37,7 @@ def predict(url, token, ids, images, *, timeout=120):
     payload = json.dumps({"ids": ids, "images": images}, allow_nan=False).encode()
     request = urllib.request.Request(url, data=payload, headers={
         "Content-Type": "application/json", "Authorization": "Bearer " + token,
+        "User-Agent": "CSAW-QAML-Student/1.0",
     })
     opener = urllib.request.build_opener(_NoRedirect())
     try:

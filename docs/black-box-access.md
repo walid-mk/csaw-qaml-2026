@@ -1,9 +1,9 @@
 # Black-box access: one token for your group
 
-**Current service URL:** `https://conservative-podcast-bones-trailers.trycloudflare.com/qaml`
+**Current service URL:** `https://predict.qamlctf.fyi/qaml`
 
 Use this as `QAML_PREDICT_URL`. Prediction requests require an enabled group token.
-If this temporary address changes, the replacement will be published here.
+This is the stable challenge hostname; keep your existing group token.
 
 Every group can participate. Your group receives privately:
 
@@ -21,6 +21,12 @@ Open [QAML_CHALLENGE.ipynb](../QAML_CHALLENGE.ipynb). Select the family, objecti
 and run, set `RUN_BLACKBOX_REQUEST = True`, then enter the issued URL and token
 when prompted. Token entry is hidden and the notebook does not print it.
 One run of that example consumes **one query** for the selected image and grant.
+
+Pull the latest `client/prediction.py` and restart your notebook kernel to load
+the updated client before resuming from saved progress. The client identifies
+itself as `CSAW-QAML-Student/1.0`. For custom HTTP requests, including health or
+policy checks, send `User-Agent: CSAW-QAML-Student/1.0`; Python’s default user
+agent may receive Cloudflare HTTP 403/error 1010. Do not repeat completed attacks.
 
 ## Use your own Python program
 
@@ -69,7 +75,7 @@ so a timeout may consume queries. There are no automatic retries.
 | Response | Your next step |
 |---|---|
 | `400` | Check IDs, shape, pixel range and the original-relative cap; correct the request |
-| `403` | Check the issued token and group access; contact support privately if needed |
+| `403` | Update the client or application User-Agent first; then check the issued token and group access |
 | `429` | The image or aggregate allowance is exhausted; stop using that grant |
 | Timeout / `500` / `503` | Keep the time, route and IDs; contact support without sharing the token |
 
@@ -83,8 +89,8 @@ preserving your group's usage.
 
 Access uses the organizer's online computer through a free Cloudflare tunnel.
 You do not need an ngrok account or a paid service. Use the current issued
-`QAML_PREDICT_URL`; the tunnel address may change after a restart. If organizers
-announce a replacement URL, update that variable. Your group token and usage
+`QAML_PREDICT_URL`; the named hostname stays the same across tunnel restarts.
+Your group token and usage
 remain the same. A temporary outage does not reset an allowance.
 
 Read `/qaml/policy` at the issued host to inspect the active version without
